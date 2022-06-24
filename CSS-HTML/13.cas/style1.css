@@ -1,0 +1,42 @@
+.main {
+    display: inline-block;
+    margin: 40px 20px 20px;
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+} 
+
+.main :nth-last-of-type(1){
+
+
+}
+
+
+.main :nth-last-of-type(2){
+
+
+}
+
+/* Ako u display svojstvu stavimo block to nam onemogucuje dodatne stilove
+tog kontejnera, sto nam ne ide u korist
+Pozeljno je koristiti inline-block kako nam ostaje mogucnosti dodatne manipulacije tog kontejnera */
+/* htm elements
+Postoje:
+1. Block level elemnts
+Neki od poznatih block level elements:
+<p>
+<div>
+<h1> do <h6>
+<ol>, <ul>, <li>
+<main>
+<section> 
+<arcticle>
+*/
+
+/* 2.Inline elements
+poznati inline elements:
+<span>
+<a>
+<img>
+<button> */
