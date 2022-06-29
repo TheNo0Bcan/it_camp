@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: 'Exo2', sans-serif;
+}
+
+.parent {
+    width: 100vw;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+
+
+}
+
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 255, 0);
+    float: left;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 136, 0);
+    float: left;
+    
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 0, 255);
+    float: left;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 0, 255);
+    clear: both;
+    float: left;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 51, 0);
+    float: left;
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(208, 255, 0);
+    float: left;
+}
+
+
+.prvo {
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.drugi {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    float: left;
+}
+
+
+
+
+
