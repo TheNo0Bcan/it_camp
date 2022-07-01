@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+
+.glavni {
+    width: 100vw;
+    height: 80vh;
+    background-color: chartreuse;
+    position: relative;
+}
+
+
+
+.box1 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    /* position: static;  defaultna vrednost pozicijoniranja */
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.box2 {
+    background-color: rgb(165, 155, 42);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* Dozvoljene su i negativne vrednosti */
+    top: -50px;
+    left: 0px;
+}
+
+.box3 {
+    background-color: rgb(42, 165, 114);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.box4 {
+    background-color: rgb(42, 44, 165);
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.box5 {
+    background-color: rgb(132, 165, 42);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+
+
