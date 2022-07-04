@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Gulzar', serif;
+}
+
+header {
+    margin: 0;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(87, 127, 17);
+}
+header a {
+    color: cadetblue;
+    padding-left: 30px;
+    position: relative;
+    top: -70px;
+    right: -800px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+.main2 {
+    width: 100vw;
+    height: 150vh;
+    background-color:darkseagreen;
+}
+
+.text1 {
+    float: left;
+    width: 50%;
+    height: 10%;
+    
+    padding-left: 100px;
+}
+
+.text2 {
+    float: right;
+
+    width: 30%;
+    padding-top: 20px;
+}
+
+
+.text3 img {
+
+    clear: both;
+    width: 500px;
+    height: 500px;
+    float: left;
+
+    
+
+}
+.text3 p {
+    float: right;
+  
+    width: 700px;
+    height: 700ox;
+
+}
+
+
+
+footer {
+    clear: both;
+    width: 100vw;
+    height: 70px;
+    background-color:rgb(46, 46, 164);
+}
+
+footer p {
+    font-size: large;
+}
+
+
