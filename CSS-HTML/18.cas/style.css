@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Gulzar', serif;
+}
+
+.header {
+    background-color:rgb(60, 165, 169);
+    width: 40vw;
+    height: 8rem;
+    padding: 10px   ;
+    border: 2px dashed darkred;
+    box-sizing: border-box;
+}
+
+.after {
+    background-color:rgb(208, 148, 58);
+    width: 40vw;
+    height: 8rem;
+    padding: 10px;
+    border: 2px dotted darkred;
+}
+
+.footer {
+    background-color:rgb(210, 16, 16);
+    width: 40vw;
+    height: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
