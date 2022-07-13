@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: #676797;
+    border-radius: 50%;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    /*top-to-bottom :naziv animacije
+    3s: trajanje  
+    ease-in: funkcija  
+    forwards:ostaje na mestu izvrsenja  
+    infinite: ponavljanje/broj pnavljanja   
+    alternate: svako pomeranje predstavlja jedno izvrsenje*/
+
+    
+}
+
+.parent:hover .child {
+    animation: top-to-bottom 2s ease-in forwards alternate infinite;
+}
+@keyframes top-to-bottom {
+    33% {
+        background-color: blue;
+        transform: translate(350px, 80px);
+        
+    }
+
+    66%{
+        background-color: purple;
+        transform: translate(350px, 160px);
+    }
+
+
+    100%  {
+        background-color:black;
+        transform: translateY(250px);
+        border-radius: 50%;
+    }
+    
+}
+
+.parent2 {
+    width: 400px;
+    height: 400px;
+    background-color: #676797;
+    
+}
+
+
+.child2{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    
+
+}
+
+.parent2:hover .child2 {
+    animation: cicle 2s ease-in forwards alternate infinite;
+
+}
+
+@keyframes cicle{ 
+    20% {
+        transform: translate(250px );
+    }
+
+    40% {
+        transform: translate(250px, 250px);
+
+    }
+
+    60% {
+        transform: translate(250px,250px);
+    }
+}
