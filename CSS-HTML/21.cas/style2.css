@@ -31,7 +31,7 @@ h1 {
 }
 
 .parent:hover .child {
-    animation: top-to-bottom 2s ease-in forwards alternate infinite;
+    animation: top-to-bottom 0.01ms ease-in forwards alternate infinite;
 }
 @keyframes top-to-bottom {
     33% {
