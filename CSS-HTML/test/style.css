@@ -83,9 +83,8 @@ span {
 
 footer {
     width: 100vw;
-    height: 90px;
+    height: 105px;
     background-color: rgb(178, 178, 179);
-    
 }
 
 footer a {
@@ -95,7 +94,6 @@ footer a {
 .icons {
     float: right;
     border-radius: 50%;
-    
 }
 
 
